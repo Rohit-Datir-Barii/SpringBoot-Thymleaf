@@ -3,7 +3,7 @@ services:
   application:
     image: employee-project
     ports:
-      - "4040:8080"
+      - "9090:8080"
     networks:
       - springboot-db-net
     depends_on:
