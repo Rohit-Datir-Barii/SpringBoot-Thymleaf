@@ -12,7 +12,7 @@ services:
       - /data/springboot-app
     
   mysqldb:
-    image: mysql:8.0.33
+    image: mysql:5.3
     networks:
       - springboot-db-net
     environment:
